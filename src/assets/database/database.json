@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "id": "master",
+      "email": "master@vistoflix.com",
+      "password": "12345678"
+    }
+  ],
+  "series": []
+}

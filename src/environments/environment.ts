@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    projectId: 'vistoflix',
+    appId: '1:39866852526:web:a563afa8f020de3f15f93f',
+    storageBucket: 'vistoflix.appspot.com',
+    apiKey: 'AIzaSyCh67mwnZIF6uwahqGzzIYZzdyG5qN7IlI',
+    authDomain: 'vistoflix.firebaseapp.com',
+    messagingSenderId: '39866852526',
+  }
 };
 
 /*

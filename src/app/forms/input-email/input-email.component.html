@@ -1,0 +1,8 @@
+<mat-form-field class="input" appearance="fill">
+
+  <mat-label> {{ label }} </mat-label>
+
+  <input type="email" matInput [formControl]="control"
+  [errorStateMatcher]="matcher" placeholder="user@mail.com">
+
+</mat-form-field>

@@ -1,0 +1,21 @@
+<div class="box">
+
+  <div style="display: flex">
+
+    <div class="img-box">
+
+      <img src="./assets/images/Logo.png" height="400px" width="400px">
+
+    </div>
+
+    <div class="form-box">
+
+      <app-login-form *ngIf="isLoginForm"></app-login-form>
+
+      <app-register-form *ngIf="!isLoginForm"></app-register-form>
+
+    </div>
+
+  </div>
+
+</div>
